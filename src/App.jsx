@@ -78,7 +78,7 @@ function App() {
         if (navigator.share) {
             navigator.share({
                 title: '九州 10天9夜全自駕行程表',
-                text: '🚗 10天9夜「雙 Outlet、潮流與運動」全自駕行程表',
+                text: '10天9夜「雙 Outlet、潮流與運動」全自駕行程表',
                 url: window.location.href,
             }).catch(() => {});
         } else {
@@ -131,29 +131,29 @@ function App() {
                                     雙 Outlet 購物 ✕ 潮流運動 ✕ 溫泉度假 ✕ 親子放電
                                 </p>
 
-                                {/* 專業特色標籤列 */}
+                                {/* 專業特色標籤列 (Clean SVG Icons, 0 Emojis) */}
                                 <div className="flex flex-wrap gap-2 mt-4 pt-1">
-                                    <span className="text-xs font-bold px-3 py-1 rounded-full bg-white border border-sky-200 text-sky-900 shadow-2xs">
-                                        🚗 全程自駕 ＋ KEP Pass
+                                    <span className="text-xs font-bold px-3 py-1 rounded-full bg-white border border-sky-200 text-sky-900 shadow-2xs flex items-center gap-1.5">
+                                        <Car size={13} className="text-sky-700" /> 全程自駕 ＋ KEP Pass
                                     </span>
-                                    <span className="text-xs font-bold px-3 py-1 rounded-full bg-white border border-slate-200 text-slate-800 shadow-2xs">
-                                        🏃 大濠公園 Zone 2 跑道
+                                    <span className="text-xs font-bold px-3 py-1 rounded-full bg-white border border-slate-200 text-slate-800 shadow-2xs flex items-center gap-1.5">
+                                        <Activity size={13} className="text-emerald-600" /> 大濠公園 Zone 2 跑道
                                     </span>
-                                    <span className="text-xs font-bold px-3 py-1 rounded-full bg-white border border-slate-200 text-slate-800 shadow-2xs">
-                                        🛍️ 鳥栖 ＆ 北九州雙 Outlet
+                                    <span className="text-xs font-bold px-3 py-1 rounded-full bg-white border border-slate-200 text-slate-800 shadow-2xs flex items-center gap-1.5">
+                                        <ShoppingBag size={13} className="text-rose-600" /> 鳥栖 ＆ 北九州雙 Outlet
                                     </span>
-                                    <span className="text-xs font-bold px-3 py-1 rounded-full bg-white border border-amber-200 text-amber-900 shadow-2xs">
-                                        ♨️ 由布院私人露天風呂
+                                    <span className="text-xs font-bold px-3 py-1 rounded-full bg-white border border-amber-200 text-amber-900 shadow-2xs flex items-center gap-1.5">
+                                        <Flame size={13} className="text-amber-600" /> 由布院私人露天風呂
                                     </span>
                                 </div>
                             </header>
 
-                            {/* 即時氣象與匯率換算 (Swiss Precision Weather & FX) */}
+                            {/* 即時氣象與匯率換算 */}
                             <div className="px-4 sm:px-5 mt-4 mb-5">
                                 <DashboardStatus mode="dashboard" />
                             </div>
 
-                            {/* 航空機票與自駕取車 Boarding Pass Card */}
+                            {/* 航空機票與自駕取車 Boarding Pass Card (長榮 BR106 / BR105 標註) */}
                             <section className="mx-4 sm:mx-5 mb-5 ticket-card p-4 sm:p-5 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.04)]">
                                 <div className="flex justify-between items-center mb-3">
                                     <div className="flex items-center gap-2">
@@ -163,23 +163,23 @@ function App() {
                                         </span>
                                     </div>
                                     <span className="text-xs font-mono font-bold text-emerald-800 bg-emerald-50 px-2.5 py-1 rounded-lg border border-emerald-200">
-                                        EVA AIR 長榮 BR105
+                                        長榮航空 BR106 / BR105
                                     </span>
                                 </div>
 
                                 <div className="space-y-3 text-xs sm:text-sm text-slate-700">
-                                    {/* 去程 */}
+                                    {/* 去程 BR106 */}
                                     <div className="flex justify-between items-center">
                                         <div>
                                             <div className="flex items-center gap-2">
                                                 <span className="font-bold text-slate-900 bg-slate-100 px-2 py-0.5 rounded text-xs font-mono">
                                                     12/19 (五)
                                                 </span>
-                                                <span className="font-bold text-slate-900 text-sm">11:15 抵達福岡機場</span>
+                                                <span className="font-bold text-slate-900 text-sm">去程 BR106 ｜ 11:15 抵達福岡</span>
                                             </div>
                                             <span className="text-xs text-slate-500 mt-1 block pl-1">國際線航廈取車 ＋ 裝安全座椅</span>
                                         </div>
-                                        <span className="text-xs font-bold text-sky-800 bg-sky-50 px-3 py-1.5 rounded-xl border border-sky-200">
+                                        <span className="text-xs font-bold text-sky-800 bg-sky-50 px-3 py-1.5 rounded-xl border border-sky-200 font-mono">
                                             務必加購 KEP
                                         </span>
                                     </div>
@@ -190,18 +190,18 @@ function App() {
                                         <div className="ticket-notch-right"></div>
                                     </div>
 
-                                    {/* 回程 */}
+                                    {/* 回程 BR105 */}
                                     <div className="flex justify-between items-center">
                                         <div>
                                             <div className="flex items-center gap-2">
                                                 <span className="font-bold text-slate-900 bg-slate-100 px-2 py-0.5 rounded text-xs font-mono">
                                                     12/28 (一)
                                                 </span>
-                                                <span className="font-bold text-slate-900 text-sm">12:15 BR105 福岡 ➔ 桃園</span>
+                                                <span className="font-bold text-slate-900 text-sm">回程 BR105 ｜ 12:15 福岡 ➔ 桃園</span>
                                             </div>
                                             <span className="text-xs text-slate-500 mt-1 block pl-1">09:00 機場租車門市還車加滿油</span>
                                         </div>
-                                        <span className="text-xs font-bold text-emerald-800 bg-emerald-50 px-3 py-1.5 rounded-xl border border-emerald-200">
+                                        <span className="text-xs font-bold text-emerald-800 bg-emerald-50 px-3 py-1.5 rounded-xl border border-emerald-200 font-mono">
                                             接駁車直達 T1
                                         </span>
                                     </div>
@@ -271,8 +271,8 @@ function App() {
                                                 <span className="flex items-center gap-1.5 font-medium text-slate-700">
                                                     <MapPin size={13} className="text-sky-600" /> {day.region}
                                                 </span>
-                                                <span className="font-mono text-slate-700 bg-slate-100 px-2 py-0.5 rounded-md font-medium">
-                                                    🚗 {day.driveTime}
+                                                <span className="font-mono text-slate-700 bg-slate-100 px-2.5 py-0.5 rounded-md font-medium flex items-center gap-1">
+                                                    <Car size={12} className="text-slate-500" /> {day.driveTime}
                                                 </span>
                                             </div>
                                         </div>
@@ -437,8 +437,8 @@ function App() {
                                         <span className="font-medium flex items-center gap-1.5">
                                             <Bed size={16} className="text-indigo-600" /> {currentDayData.stay}
                                         </span>
-                                        <span className="font-mono text-slate-700 bg-slate-100 px-2.5 py-0.5 rounded-md font-medium">
-                                            🚗 {currentDayData.driveTime}
+                                        <span className="font-mono text-slate-700 bg-slate-100 px-2.5 py-0.5 rounded-md font-medium flex items-center gap-1">
+                                            <Car size={12} className="text-slate-500" /> {currentDayData.driveTime}
                                         </span>
                                     </div>
                                 </div>

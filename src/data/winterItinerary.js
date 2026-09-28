@@ -25,15 +25,15 @@ export const winterItinerary = [
     day: 1,
     date: '12/19 (週五)',
     title: '啟程九州 ➔ 別府海地獄 ➔ 奢華 Glamping BBQ',
-    summary: '11:15 抵達福岡機場，辦理國際線取車與 KEP，一路開往別府快閃海地獄，夜宿 GRAND VERDE RESORT 享受極致露營 BBQ。',
+    summary: '搭乘長榮 BR106 於 11:15 抵達福岡機場，辦理國際線取車與 KEP，一路開往別府快閃海地獄，夜宿 GRAND VERDE RESORT 享受極致露營 BBQ。',
     region: '福岡 ➜ 大分別府',
     driveTime: '約 2 小時 (高速公路)',
     stay: 'GRAND VERDE RESORT (奢華露營 / Glamping)',
     activities: [
       {
         time: '11:15',
-        title: '抵達福岡機場 ＆ 國際線航廈取車',
-        desc: '班機抵達福岡機場 (FUK)。出關後至租車櫃檯辦理取車手續，妥善安裝兒童安全座椅，並務必加購「KEP 九州高速公路護照 (Kyushu Expressway Pass)」。',
+        title: '抵達福岡機場 ＆ 國際線航廈取車 (長榮 BR106)',
+        desc: '搭乘長榮航空 BR106 班機抵達福岡機場 (FUK)。出關後至租車櫃檯辦理取車手續，妥善安裝兒童安全座椅，並務必加購「KEP 九州高速公路護照 (Kyushu Expressway Pass)」。',
         icon: Plane,
         type: 'transit',
         highlight: true,
@@ -177,7 +177,7 @@ export const winterItinerary = [
       {
         time: '11:45–14:30',
         title: '第一間 Outlet：鳥栖 Premium Outlets 運動潮流大採購',
-        desc: '美式加州風格大型露天購物村！匯集 Nike、Adidas、Under Armour、New Balance、The North Face 等頂級運動與戶外品牌。午餐於美食廣場享用，戰利品直接整箱丟進後車廂！',
+        desc: '美式加州風格大型露天購物村！匯集 Nike、Adidas、Under Armour、New Balance、The North Face 等頂級運動與戶外品牌。午餐於美食廣場享用，戰利品直接整箱放進後車廂！',
         icon: ShoppingBag,
         type: 'shopping',
         highlight: true,
@@ -230,7 +230,7 @@ export const winterItinerary = [
       {
         time: '07:30–09:00',
         title: '大濠公園 Zone 2 晨跑 ＋ 湖畔星巴克親子早餐',
-        desc: '晨起開車約 10 分鐘直達大濠公園收費停車場（清晨空位極多）。換上跑鞋於日本著名 2 公里專業橡膠跑道享受絕佳 Zone 2 晨跑；老婆與 4-5 歲孩子則在隈研吾操刀之「大濠公園星巴克」臨湖玻璃屋享用熱咖啡、麵包與親子晨光。',
+        desc: '晨起開車約 10 分鐘直達大濠公園收費停車場（清晨空位極多）。換上跑鞋於日本著名 2 公里專業橡膠跑道享受絕佳 Zone 2 晨跑；家人則在大濠公園星巴克臨湖玻璃屋享用熱咖啡、麵包與親子晨光。',
         icon: Activity,
         type: 'sport',
         highlight: true,
@@ -238,13 +238,13 @@ export const winterItinerary = [
         camera: {
           mode: 'XPAN 電影寬幅 / 大師運動抓拍',
           desc: '大濠公園晨跑動態與湖畔晨光星巴克',
-          settings: '早晨柔和側光，XPAN 寬幅呈現跑道延伸感；3x 人像拍窗邊老婆小孩笑臉'
+          settings: '早晨柔和側光，XPAN 寬幅呈現跑道延伸感；3x 人像拍窗邊家人笑臉'
         }
       },
       {
         time: '09:00–10:30',
-        title: '公園野鴨餵食 ＆ 湖中島漫步 ➔ 回飯店盥洗',
-        desc: '跑步結束後與家人在湖心島「觀月橋」會合，全家在公園草地放電散步、看水鳥，隨後自駕回天神飯店盥洗換裝。',
+        title: '公園水鳥觀賞 ＆ 湖中島漫步 ➔ 回飯店盥洗',
+        desc: '跑步結束後與家人在湖心島「觀月橋」會合，全家在公園草地漫步散心，隨後自駕回天神飯店盥洗換裝。',
         icon: Sun,
         type: 'nature',
         map: 'Ohori Park Fukuoka'
@@ -267,7 +267,7 @@ export const winterItinerary = [
       }
     ],
     notes: [
-      { text: '【💡 大濠公園晨跑車位秘訣】公園設有南北兩大停車場，早上 07:30-08:00 停車位非常空曠，車停好即是跑道入口，跑步與家庭早餐無縫接軌！' },
+      { text: '【大濠公園晨跑車位秘訣】公園設有南北兩大停車場，早上 07:30-08:00 停車位非常空曠，車停好即是跑道入口，跑步與家庭早餐無縫接軌！' },
       { text: '【跑道特色】大濠公園環湖一圈整整 2 公里，路面鋪設專業緩震PU跑道，並設有精準里程標示與跑步專用道。' }
     ]
   },
@@ -290,7 +290,7 @@ export const winterItinerary = [
         map: 'Fukuoka Anpanman Children’s Museum in Mall',
         camera: {
           mode: '哈蘇大師人像 (3x 潛望鏡) / 1x 抓拍',
-          desc: '孩子手拿麵包超人造型麵包與角色擁抱',
+          desc: '孩子手拿造型麵包與角色擁抱',
           settings: '室內暖色光源，EV +0.7 提亮膚色，快門 1/250s 抓拍孩子興奮瞬間'
         }
       },
@@ -430,7 +430,7 @@ export const winterItinerary = [
       {
         time: '14:30–19:00',
         title: '第二間 Outlet：THE OUTLETS KITAKYUSHU ＆ 和牛燒肉晚餐',
-        desc: '全九州最新世代超大型購物中心！品牌與鳥栖互補，相連 AEON MALL，並設有「ASOBI PARK」等大型室內親子互動遊樂設施。老婆血拚時小孩瘋玩，晚餐直接於館內享用頂級和牛燒肉，隨後自駕回天神。',
+        desc: '全九州最新世代超大型購物中心！品牌與鳥栖互補，相連 AEON MALL，並設有「ASOBI PARK」等大型室內親子互動遊樂設施。享受購物與親子娛樂，晚餐直接於館內享用頂級和牛燒肉，隨後自駕回天神。',
         icon: ShoppingBag,
         type: 'shopping',
         highlight: true,
@@ -438,7 +438,7 @@ export const winterItinerary = [
       }
     ],
     notes: [
-      { text: '【💡 雙 Outlet 完美區隔】鳥栖主攻歐美運動戶外品牌折扣；北九州 Outlets 則匯聚日本在地潮流服飾、日用雜貨、大型室內親子遊樂園與頂級和牛餐飲，兩者互補不重複！' },
+      { text: '【雙 Outlet 深度區隔】鳥栖主攻歐美運動戶外品牌折扣；北九州 Outlets 則匯聚日本在地潮流服飾、日用雜貨、大型室內親子遊樂園與頂級和牛餐飲，兩者互補不重複！' },
       { text: '【自駕回程】晚餐後由八幡東 IC 上高速公路返回天神約 1 小時車程，夜間車流順暢。' }
     ]
   },
@@ -610,7 +610,7 @@ export const drivingHighlights = [
     title: '大濠公園 Zone 2 晨跑專用車位',
     summary: '清晨 7:30 停車位極為空曠，車停好即是跑道起點',
     desc: '大濠公園本身附設大型付費停車場，清晨 7:30 左右的位置非常空，開車過去直接停好，即可無縫開啟您的 Zone 2 晨跑。老婆和孩子可在湖畔星巴克悠閒享用早餐。',
-    tag: '運動 & 車位',
+    tag: '運動與車位',
     icon: Activity
   },
   {

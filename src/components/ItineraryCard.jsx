@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MapPin, Camera, ChevronDown, ChevronUp, Sparkles, ExternalLink, Navigation } from 'lucide-react';
+import { MapPin, Camera, ChevronDown, ChevronUp, Sparkles, ExternalLink, Navigation, Sliders } from 'lucide-react';
 
 const ItineraryCard = ({ activity, isLast }) => {
     const { time, title, desc, icon: Icon, type, highlight, camera, map } = activity;
@@ -138,8 +138,9 @@ const ItineraryCard = ({ activity, isLast }) => {
                             {/* Collapsible settings details */}
                             {showCameraDetail && (
                                 <div className="mt-3 pt-3 border-t border-slate-800 pl-3.5 border-l-2 border-orange-400 animate-fadeIn">
-                                    <div className="text-xs font-mono text-orange-200 bg-slate-950 px-3 py-2 rounded-xl border border-slate-800 leading-relaxed">
-                                        ⚙️ {camera.settings}
+                                    <div className="text-xs font-mono text-orange-200 bg-slate-950 px-3 py-2 rounded-xl border border-slate-800 leading-relaxed flex items-center gap-1.5">
+                                        <Sliders size={13} className="text-orange-400 shrink-0" />
+                                        <span>{camera.settings}</span>
                                     </div>
                                 </div>
                             )}

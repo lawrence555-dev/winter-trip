@@ -12,7 +12,8 @@ import {
     Sparkles, 
     Droplets,
     Thermometer,
-    Check
+    Check,
+    Flame
 } from 'lucide-react';
 
 export default function DashboardStatus({ mode = "dashboard" }) {
@@ -22,7 +23,6 @@ export default function DashboardStatus({ mode = "dashboard" }) {
     const [loading, setLoading] = useState(true);
     const [calcTwd, setCalcTwd] = useState('10000');
     const [showCalculator, setShowCalculator] = useState(false);
-    const [lastUpdated, setLastUpdated] = useState('');
 
     const fetchData = async () => {
         setLoading(true);
@@ -82,8 +82,6 @@ export default function DashboardStatus({ mode = "dashboard" }) {
             });
         }
 
-        const now = new Date();
-        setLastUpdated(`${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`);
         setLoading(false);
     };
 
@@ -113,7 +111,7 @@ export default function DashboardStatus({ mode = "dashboard" }) {
 
     return (
         <div className="space-y-3.5">
-            {/* 天氣雙卡片 (Clear Mobile Typography) */}
+            {/* 天氣雙卡片 */}
             <div className="grid grid-cols-2 gap-3 sm:gap-4">
                 {/* 福岡市區卡片 */}
                 <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.04)] hover:border-sky-300 transition-all group">
@@ -177,8 +175,8 @@ export default function DashboardStatus({ mode = "dashboard" }) {
                             <Droplets size={13} className="text-amber-500" />
                             {weatherBeppu?.humidity}%
                         </span>
-                        <span className="text-amber-800 font-bold">
-                            ♨ 溫泉
+                        <span className="flex items-center gap-1 text-amber-800 font-bold">
+                            <Flame size={12} className="text-amber-600" /> 溫泉名湯
                         </span>
                         <span className="text-xs px-2 py-0.5 rounded-md bg-amber-50 text-amber-900 font-bold border border-amber-100">
                             {getWeatherText(weatherBeppu?.code)}
@@ -187,21 +185,16 @@ export default function DashboardStatus({ mode = "dashboard" }) {
                 </div>
             </div>
 
-            {/* 即時匯率 Bar ＋ 互動計算器 */}
+            {/* 即時匯率 Bar ＋ 互動計算器 (Removed overlapping Live badge for clean UI) */}
             <div className="bg-white border border-slate-200/90 rounded-2xl p-4 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.04)]">
                 <div className="flex justify-between items-center">
                     <div className="flex items-center gap-3">
-                        <div className="w-9 h-9 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white flex items-center justify-center font-bold text-base shadow-xs">
+                        <div className="w-9 h-9 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white flex items-center justify-center font-bold text-base shadow-xs font-mono">
                             ¥
                         </div>
                         <div>
-                            <div className="flex items-center gap-2">
-                                <span className="text-xs font-bold text-slate-500 uppercase tracking-wider font-mono">即時匯率 TWD ➔ JPY</span>
-                                {lastUpdated && (
-                                    <span className="text-[10px] font-mono text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded font-bold border border-emerald-200">
-                                        ● LIVE {lastUpdated}
-                                    </span>
-                                )}
+                            <div className="text-xs font-bold text-slate-500 uppercase tracking-wider font-mono">
+                                即時匯率 TWD ➔ JPY
                             </div>
                             <div className="text-sm sm:text-base font-bold text-slate-900 font-mono mt-0.5">
                                 NT$ 1 ≈ <span className="text-emerald-600 font-black text-base sm:text-lg">{loading ? '...' : rateData?.jpyPerTwd}</span> 日圓
