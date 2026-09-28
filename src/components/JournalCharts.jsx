@@ -62,9 +62,9 @@ export const WinterRadarChart = () => {
                 grid: { color: '#e2e8f0' },
                 angleLines: { color: '#e2e8f0' },
                 pointLabels: {
-                    font: { size: 10, weight: 'bold', family: 'Work Sans, Noto Sans TC' },
-                    color: '#334155',
-                    padding: 8
+                    font: { size: 11, weight: 'bold', family: 'Work Sans, Noto Sans TC' },
+                    color: '#1e293b',
+                    padding: 10
                 },
                 ticks: { display: false },
                 suggestedMin: 50,
@@ -113,16 +113,16 @@ export const DriveDistanceChart = () => {
             x: {
                 grid: { display: false },
                 ticks: { 
-                    font: { size: 9, family: 'Work Sans, Noto Sans TC', weight: 'bold' },
-                    color: '#64748b'
+                    font: { size: 10, family: 'Work Sans, Noto Sans TC', weight: 'bold' },
+                    color: '#475569'
                 }
             },
             y: {
                 beginAtZero: true,
                 grid: { color: '#f1f5f9' },
                 ticks: {
-                    font: { size: 9 },
-                    color: '#94a3b8',
+                    font: { size: 10 },
+                    color: '#64748b',
                     stepSize: 50
                 }
             }
@@ -130,7 +130,7 @@ export const DriveDistanceChart = () => {
     };
 
     return (
-        <div className="w-full h-32">
+        <div className="w-full h-36">
             <Line data={chartData} options={options} />
         </div>
     );

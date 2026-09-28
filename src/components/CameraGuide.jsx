@@ -82,28 +82,28 @@ export default function CameraGuide() {
     };
 
     return (
-        <div className="bg-slate-900 border-x border-b border-slate-800 rounded-b-2xl p-4 text-white animate-fadeIn">
+        <div className="bg-slate-900 border-x border-b border-slate-800 rounded-b-3xl p-4 sm:p-5 text-white animate-fadeIn">
             {/* 哈蘇大師標題 Bar */}
-            <div className="flex items-center justify-between pb-3 mb-3 border-b border-slate-800">
+            <div className="flex items-center justify-between pb-3.5 mb-3.5 border-b border-slate-800">
                 <div className="flex items-center gap-2">
-                    <span className="w-2 h-2 rounded-full bg-orange-500 animate-pulse shadow-[0_0_8px_#f97316]"></span>
-                    <span className="text-[10px] font-black tracking-[0.2em] uppercase text-orange-400">
+                    <span className="w-2.5 h-2.5 rounded-full bg-orange-500 animate-pulse shadow-[0_0_10px_#f97316]"></span>
+                    <span className="text-xs font-black tracking-[0.2em] uppercase text-orange-400 font-mono">
                         HASSELBLAD MASTER SYSTEM
                     </span>
                 </div>
                 <button
                     onClick={() => copySettings(currentPreset)}
-                    className="flex items-center gap-1 text-[10px] font-bold text-slate-300 hover:text-white bg-slate-800/80 px-2 py-1 rounded-lg border border-slate-700 transition-colors"
+                    className="flex items-center gap-1.5 text-xs font-bold text-slate-200 hover:text-white bg-slate-800 px-3 py-1.5 rounded-xl border border-slate-700 transition-colors tap-effect"
                     title="複製參數"
                 >
                     {copiedId === currentPreset.id ? (
                         <>
-                            <Check size={11} className="text-emerald-400" />
-                            <span className="text-emerald-400">已複製</span>
+                            <Check size={13} className="text-emerald-400" />
+                            <span className="text-emerald-400">已複製參數</span>
                         </>
                     ) : (
                         <>
-                            <Copy size={11} />
+                            <Copy size={13} />
                             <span>複製參數</span>
                         </>
                     )}
@@ -120,73 +120,73 @@ export default function CameraGuide() {
                             key={s.id}
                             onClick={(e) => { e.stopPropagation(); setActiveTab(s.id); }}
                             className={`
-                                flex flex-col items-center justify-center p-2 rounded-xl border transition-all text-center
+                                flex flex-col items-center justify-center p-2.5 rounded-2xl border transition-all text-center tap-effect
                                 ${isActive 
-                                    ? "bg-slate-800 border-orange-500/80 text-white shadow-md ring-1 ring-orange-500/50 scale-102" 
+                                    ? "bg-slate-800 border-orange-500 text-white shadow-lg ring-2 ring-orange-500/50 scale-102" 
                                     : "bg-slate-800/40 border-slate-800 text-slate-400 hover:bg-slate-800 hover:text-slate-200"}
                             `}
                         >
-                            <Icon size={17} className={`mb-1 ${isActive ? 'text-orange-400' : 'text-slate-400'}`} />
-                            <span className="text-[9px] font-black tracking-wider font-mono">{s.tag}</span>
-                            <span className="text-[7px] text-slate-400 mt-0.5">{s.id.toUpperCase()}</span>
+                            <Icon size={20} className={`mb-1 ${isActive ? 'text-orange-400' : 'text-slate-400'}`} />
+                            <span className="text-xs font-black tracking-wider font-mono">{s.tag}</span>
+                            <span className="text-[10px] text-slate-400 font-bold mt-0.5">{s.id.toUpperCase()}</span>
                         </button>
                     );
                 })}
             </div>
 
             {/* 當前選中配置詳情 (Pro Dial Card) */}
-            <div className="bg-slate-950/80 rounded-2xl border border-slate-800 p-4 space-y-3.5">
+            <div className="bg-slate-950 rounded-2xl border border-slate-800 p-4 sm:p-5 space-y-4">
                 <div className="flex justify-between items-start">
                     <div>
                         <div className="flex items-center gap-2">
-                            <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-orange-500/20 text-orange-400 border border-orange-500/30">
+                            <span className="text-xs font-bold px-2 py-0.5 rounded-md bg-orange-500/20 text-orange-400 border border-orange-500/40 font-mono">
                                 {currentPreset.tag} MODE
                             </span>
-                            <h3 className="font-bold text-xs text-white leading-tight">
+                            <h3 className="font-bold text-sm sm:text-base text-white leading-snug">
                                 {currentPreset.name}
                             </h3>
                         </div>
-                        <p className="text-[10px] text-slate-400 mt-1">{currentPreset.desc}</p>
+                        <p className="text-xs sm:text-sm text-slate-400 mt-1.5 leading-relaxed">{currentPreset.desc}</p>
                     </div>
                 </div>
 
                 {/* 參數矩陣 Grid */}
-                <div className="grid grid-cols-2 gap-2 text-xs">
-                    <div className="bg-slate-900/90 rounded-xl p-2.5 border border-slate-800/80">
-                        <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wider block">建議鏡頭焦段</span>
-                        <span className="text-[11px] font-bold text-orange-400 font-mono mt-0.5 block">{currentPreset.lens}</span>
+                <div className="grid grid-cols-2 gap-2.5 text-xs sm:text-sm">
+                    <div className="bg-slate-900 rounded-xl p-3 border border-slate-800">
+                        <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block font-mono">建議鏡頭焦段</span>
+                        <span className="text-xs sm:text-sm font-bold text-orange-400 font-mono mt-1 block">{currentPreset.lens}</span>
                     </div>
 
-                    <div className="bg-slate-900/90 rounded-xl p-2.5 border border-slate-800/80">
-                        <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wider block">相機模式</span>
-                        <span className="text-[11px] font-bold text-sky-400 mt-0.5 block">{currentPreset.modeName}</span>
+                    <div className="bg-slate-900 rounded-xl p-3 border border-slate-800">
+                        <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block font-mono">相機模式</span>
+                        <span className="text-xs sm:text-sm font-bold text-sky-400 mt-1 block">{currentPreset.modeName}</span>
                     </div>
 
-                    <div className="bg-slate-900/90 rounded-xl p-2.5 border border-slate-800/80">
-                        <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wider block">光圈與散景</span>
-                        <span className="text-[11px] font-bold text-slate-200 font-mono mt-0.5 block">{currentPreset.aperture}</span>
+                    <div className="bg-slate-900 rounded-xl p-3 border border-slate-800">
+                        <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block font-mono">光圈與散景</span>
+                        <span className="text-xs sm:text-sm font-bold text-slate-100 font-mono mt-1 block">{currentPreset.aperture}</span>
                     </div>
 
-                    <div className="bg-slate-900/90 rounded-xl p-2.5 border border-slate-800/80">
-                        <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wider block">曝光補償 (EV)</span>
-                        <span className="text-[11px] font-bold text-emerald-400 font-mono mt-0.5 block">{currentPreset.ev}</span>
+                    <div className="bg-slate-900 rounded-xl p-3 border border-slate-800">
+                        <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block font-mono">曝光補償 (EV)</span>
+                        <span className="text-xs sm:text-sm font-bold text-emerald-400 font-mono mt-1 block">{currentPreset.ev}</span>
                     </div>
 
-                    <div className="bg-slate-900/90 rounded-xl p-2.5 border border-slate-800/80">
-                        <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wider block">白平衡色溫</span>
-                        <span className="text-[11px] font-bold text-slate-300 font-mono mt-0.5 block">{currentPreset.wb}</span>
+                    <div className="bg-slate-900 rounded-xl p-3 border border-slate-800">
+                        <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block font-mono">白平衡色溫</span>
+                        <span className="text-xs sm:text-sm font-bold text-slate-200 font-mono mt-1 block">{currentPreset.wb}</span>
                     </div>
 
-                    <div className="bg-slate-900/90 rounded-xl p-2.5 border border-slate-800/80">
-                        <span className="text-[9px] font-bold text-slate-400 uppercase tracking-wider block">色彩風格影調</span>
-                        <span className="text-[11px] font-bold text-slate-300 mt-0.5 block">{currentPreset.style}</span>
+                    <div className="bg-slate-900 rounded-xl p-3 border border-slate-800">
+                        <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block font-mono">色彩風格影調</span>
+                        <span className="text-xs sm:text-sm font-bold text-slate-200 mt-1 block">{currentPreset.style}</span>
                     </div>
                 </div>
 
                 {/* 大師實戰小撇步 */}
-                <div className="bg-slate-900/60 rounded-xl p-3 border border-slate-800 flex gap-2">
-                    <Info size={14} className="text-orange-400 shrink-0 mt-0.5" />
-                    <p className="text-[11px] text-slate-300 leading-relaxed font-light">
+                <div className="bg-slate-900/80 rounded-2xl p-3.5 border border-slate-800 flex gap-2.5">
+                    <Info size={18} className="text-orange-400 shrink-0 mt-0.5" />
+                    <p className="text-xs sm:text-sm text-slate-200 leading-relaxed font-normal">
                         {currentPreset.tips}
                     </p>
                 </div>
