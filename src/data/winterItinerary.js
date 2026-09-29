@@ -31,13 +31,13 @@ export const winterItinerary = [
     stay: 'GRAND VERDE RESORT (奢華露營 / Glamping)',
     activities: [
       {
-        time: '11:15',
-        title: '抵達福岡機場 ＆ 國際線航廈取車 (長榮 BR106)',
-        desc: '搭乘長榮航空 BR106 班機抵達福岡機場 (FUK)。出關後至租車櫃檯辦理取車手續，妥善安裝兒童安全座椅，並務必加購「KEP 九州高速公路護照 (Kyushu Expressway Pass)」。',
+        time: '11:15–12:00',
+        title: '抵達福岡機場 ＆ 國際線店取車 (預約號: 99932364700)',
+        desc: '搭乘長榮航空 BR106 抵達福岡機場 (11:15)。出關後至國際線航廈租車櫃檯出示預約號碼【99932364700】，搭乘接駁車至「福岡機場國際線店」（福岡市博多区東那珂2-22-3，電話 092-778-0100）提取 W1 等級 SIENTA Hybrid，安裝安全座椅並加購 KEP 九州高速公路護照。',
         icon: Plane,
         type: 'transit',
         highlight: true,
-        map: 'Fukuoka Airport International Terminal',
+        map: '福岡市博多区東那珂二丁目22番3号',
         camera: {
           mode: '超廣角 / 1x 廣角 (大師模式)',
           desc: '九州自駕啟程紀念',
@@ -564,21 +564,21 @@ export const winterItinerary = [
     stay: '溫暖的家',
     activities: [
       {
-        time: '08:30–09:00',
-        title: '飯店辦理退房 ＆ 行李上車',
-        desc: '辦理飯店退房，所有行李箱與戰利品確認收妥於後車廂，清點護照、隨身貴重物品與車載充電器。',
+        time: '07:30–08:00',
+        title: '飯店辦理退房 ＆ 行李全數上車',
+        desc: '辦理飯店退房，所有大件行李箱與戰利品確認收妥於 SIENTA 後車廂，清點護照、駕照與貴重物品。',
         icon: Hotel,
         type: 'stay',
         map: 'Tenjin Fukuoka'
       },
       {
-        time: '09:00–09:30',
-        title: '自駕前往福岡機場租車門市辦理還車',
-        desc: '於機場前最後一家加油站加滿油（Regular汽油），前往租車門市交車，結算 KEP 通行費與車況檢查。',
+        time: '08:00–08:30',
+        title: '08:30 福岡機場國際線店還車 ＆ 結算 KEP',
+        desc: '於門市周邊加油站加滿油（Regular 汽油並保留發票），準時於 08:30 抵達「福岡機場國際線店」（福岡市博多区東那珂2-22-3，電話 092-778-0100）交車、車況檢查與結算 KEP 費用。',
         icon: Car,
         type: 'transit',
         highlight: true,
-        map: 'Fukuoka Airport Car Rental Return'
+        map: '福岡市博多区東那珂二丁目22番3号'
       },
       {
         time: '09:30～',
@@ -637,8 +637,34 @@ export const drivingHighlights = [
 ];
 
 export const packingChecklist = [
-  { category: '證件與自駕', items: ['台灣駕照正本', '日文譯本駕照', '全家護照 (效期6個月以上)', 'KEP / ETC 預約確認單', '租車預約單與保險證明'] },
+  { category: '證件與自駕', items: ['台灣駕照正本', '日文譯本駕照', '全家護照 (效期6個月以上)', '租車預約確認單 (預約號: 99932364700 / SIENTA Hybrid)', 'KEP / ETC 預約與租車保險證明'] },
   { category: '運動與跑步裝備', items: ['Zone 2 跑鞋 (如 Nike / Hoka / Asics)', '透氣排汗防風跑步風衣', '跑步運動短褲 / 壓力褲', '運動手錶 (Garmin / Apple Watch) 及心率監測', '跑步專用運動水壺與止汗帶'] },
   { category: '攝影與科技器材', items: ['OPPO Find 9 Ultra 旗艦手機', '哈蘇專業鏡頭清潔布', '車充雙孔快充頭 & 磁吸車架', '高容量行動電源 (20000mAh)', '降噪耳機 / 兒童防噪耳機'] },
   { category: '家庭與兒童必備', items: ['4-5 歲兒童保暖發熱衣 & 羽絨外套', '毛帽 / 手套 / 保暖圍巾', '常備藥品 (退燒、止咳、腸胃、暈車藥)', '輕便折疊傘 / 濕紙巾 / 酒精擦', '便攜保溫水壺'] }
 ];
+
+export const carRentalReservation = {
+  reservationNumber: '99932364700',
+  titleJa: 'ご予約内容',
+  titleZh: '租車預約確認憑證',
+  pickupStore: '福岡機場國際線店（福岡空港国際線店）',
+  pickupPhone: '092-778-0100',
+  pickupAddressJa: '福岡市博多区東那珂二丁目22番3号',
+  pickupAddressEn: '2-22-3 Higashinaka, Hakata-ku, Fukuoka-shi, Fukuoka 812-0892',
+  returnStore: '福岡機場國際線店（福岡空港国際線店）',
+  returnPhone: '092-778-0100',
+  returnAddressJa: '福岡市博多区東那珂二丁目22番3号',
+  returnAddressEn: '2-22-3 Higashinaka, Hakata-ku, Fukuoka-shi, Fukuoka 812-0892',
+  pickupDateTime: '12/19/2026 12:00',
+  returnDateTime: '12/28/2026 08:30',
+  carClass: 'W1 等級 SIENTA Hybrid（from August 2022）',
+  totalPriceJpy: '129,580 日圓',
+  totalPriceText: '129,580 円（税込）',
+  features: [
+    '油電混合 Hybrid（超省油，長途自駕首選）',
+    '後座雙側電動滑門（便利 4-5 歲兒童上下車）',
+    '第三排座椅可完全收納下潛，創造極大行李置物空間（可容納 2 大 1 小行李箱 ＋ 雙 Outlet 戰利品）',
+    '配備 Apple CarPlay / Android Auto 導航連接'
+  ]
+};
+

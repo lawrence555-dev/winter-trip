@@ -41,6 +41,7 @@ import ItineraryCard from './components/ItineraryCard';
 import { WinterRadarChart, DriveDistanceChart } from './components/JournalCharts';
 import DrivingHighlights from './components/DrivingHighlights';
 import PackingList from './components/PackingList';
+import RentalCarCard from './components/RentalCarCard';
 
 function App() {
     const [view, setView] = useState('dashboard'); // 'dashboard' | 'itinerary' | 'driving' | 'packing'
@@ -154,7 +155,7 @@ function App() {
                             </div>
 
                             {/* 航空機票與自駕取車 Boarding Pass Card (長榮 BR106 / BR105 標註) */}
-                            <section className="mx-4 sm:mx-5 mb-5 ticket-card p-4 sm:p-5 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.04)]">
+                            <section className="mx-4 sm:mx-5 mb-4 ticket-card p-4 sm:p-5 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.04)]">
                                 <div className="flex justify-between items-center mb-3">
                                     <div className="flex items-center gap-2">
                                         <Plane className="w-4 h-4 text-emerald-600" />
@@ -177,10 +178,10 @@ function App() {
                                                 </span>
                                                 <span className="font-bold text-slate-900 text-sm">去程 BR106 ｜ 11:15 抵達福岡</span>
                                             </div>
-                                            <span className="text-xs text-slate-500 mt-1 block pl-1">國際線航廈取車 ＋ 裝安全座椅</span>
+                                            <span className="text-xs text-slate-500 mt-1 block pl-1">12:00 機場國際線店取車（SIENTA Hybrid）</span>
                                         </div>
                                         <span className="text-xs font-bold text-sky-800 bg-sky-50 px-3 py-1.5 rounded-xl border border-sky-200 font-mono">
-                                            務必加購 KEP
+                                            加購 KEP 護照
                                         </span>
                                     </div>
 
@@ -199,14 +200,19 @@ function App() {
                                                 </span>
                                                 <span className="font-bold text-slate-900 text-sm">回程 BR105 ｜ 12:15 福岡 ➔ 桃園</span>
                                             </div>
-                                            <span className="text-xs text-slate-500 mt-1 block pl-1">09:00 機場租車門市還車加滿油</span>
+                                            <span className="text-xs text-slate-500 mt-1 block pl-1">08:30 機場國際線店還車加滿油</span>
                                         </div>
                                         <span className="text-xs font-bold text-emerald-800 bg-emerald-50 px-3 py-1.5 rounded-xl border border-emerald-200 font-mono">
-                                            接駁車直達 T1
+                                            接駁車直達航廈
                                         </span>
                                     </div>
                                 </div>
                             </section>
+
+                            {/* 租車預約確認憑證 Card (ご予約内容) */}
+                            <div className="mx-4 sm:mx-5 mb-5">
+                                <RentalCarCard />
+                            </div>
 
                             {/* OPPO Find 9 Ultra 哈蘇旗艦大師指南 (折疊卡片) */}
                             <div className="mx-4 sm:mx-5 mb-5 shadow-xs">
@@ -542,6 +548,9 @@ function App() {
                             </nav>
 
                             <div className="space-y-5">
+                                {/* 租車預約確認憑證 */}
+                                <RentalCarCard />
+
                                 <DrivingHighlights />
 
                                 {/* 雙 Outlet 深度比較矩陣卡片 */}
