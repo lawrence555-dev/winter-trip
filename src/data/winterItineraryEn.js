@@ -211,16 +211,17 @@ export const winterItineraryEn = [
       },
       {
         time: '11:30–14:30',
-        title: 'Tenjin Downtown Stroll & Local Gourmet Lunch',
-        desc: 'Explore Tenjin Underground Mall and surrounding boutique streets. Enjoy authentic local specialties like Hakata Motsunabe (beef intestine hotpot) or seafood rice bowls.',
-        icon: Utensils,
-        type: 'dining',
-        map: 'Tenjin Underground Shopping Mall'
+        title: 'HUMAN MADE Fukuoka Flagship Store & Daimyo Streetwear',
+        desc: 'Drive back to the trendy Daimyo district to visit NIGO’s iconic HUMAN MADE Flagship Store. Pick up Fukuoka-exclusive tees, accessories, and explore Supreme, Stussy, and BEAMS. Enjoy Hakata Motsunabe or Issou Tonkotsu Ramen for lunch.',
+        icon: ShoppingBag,
+        type: 'shopping',
+        highlight: true,
+        map: 'HUMAN MADE FUKUOKA'
       },
       {
         time: 'Afternoon–Evening',
-        title: 'Tenjin Department Store Shopping & Family Leisure',
-        desc: 'Visit Fukuoka PARCO and Mitsukoshi Department Store for lifestyle goods and relaxed family downtime.',
+        title: 'Tenjin Department Store Shopping (PARCO / Iwataya) & Family Leisure',
+        desc: 'Explore Fukuoka PARCO, Iwataya, and Mitsukoshi Department Store for curated Japanese fashion, children’s lifestyle goods, and coffee breaks.',
         icon: ShoppingBag,
         type: 'shopping',
         map: 'Fukuoka PARCO'
@@ -274,50 +275,59 @@ export const winterItineraryEn = [
   {
     day: 6,
     date: 'Dec 24 (Wed)',
-    title: 'Dazaifu Starbucks Morning Pilgrimage ➔ Tenjin Daimyo Streetwear',
-    summary: 'Early drive to Dazaifu to beat crowds at Kengo Kuma’s iconic Starbucks and shrine, followed by streetwear shopping in Tenjin Daimyo (HUMAN MADE, Supreme, Stussy).',
-    region: 'Dazaifu ➔ Fukuoka Tenjin Daimyo',
-    driveTime: 'Approx. 30 mins (Smooth morning drive)',
+    title: 'Dazaifu Starbucks ➔ Mitsui LaLaport Gundam ➔ KidZania Fukuoka (Christmas Eve Special)',
+    summary: 'Early morning coffee at Kengo Kuma’s Dazaifu Starbucks and shrine blessings, midday photos with the 1:1 scale RX-93ff ν Gundam at LaLaport Fukuoka, and a magical afternoon at KidZania Fukuoka where kids role-play real careers on Christmas Eve!',
+    region: 'Dazaifu ➔ Mitsui LaLaport Fukuoka (KidZania) ➔ Tenjin',
+    driveTime: 'Approx. 35 mins (Dazaifu to LaLaport 20m, LaLaport to Tenjin 15m)',
     stay: 'Fukuoka Tenjin Central Hotel',
     activities: [
       {
         time: '08:00–08:30',
-        title: 'Early Morning Drive to Dazaifu Tenmangu',
-        desc: 'Depart at 8:00 AM to beat rush hour and tourist tour buses, arriving at Dazaifu in approx. 30 minutes.',
+        title: 'Scenic Morning Drive to Dazaifu Tenmangu',
+        desc: 'Depart at 8:00 AM to beat rush hour and tour buses, arriving at Dazaifu parking in approx. 25 minutes.',
         icon: Car,
         type: 'transit',
         map: 'Dazaifu Tenmangu Parking'
       },
       {
         time: '08:30–10:30',
-        title: 'Dazaifu Omotesando Starbucks & Umegae Mochi',
-        desc: 'Enjoy morning coffee inside the architectural masterpiece designed by Kengo Kuma with 2,000 interlocking cedar timbers. Pay respects at the historic Tenmangu Shrine and savor freshly toasted Umegae Mochi plum cakes.',
+        title: 'Dazaifu Omotesando Kengo Kuma Starbucks & Plum Cake Blessings',
+        desc: 'Enjoy morning coffee inside the architectural masterpiece designed by Kengo Kuma with 2,000 interlocking cedar timbers. Pray for family blessings at the historic Tenmangu Shrine and savor freshly toasted Umegae Mochi plum cakes.',
         icon: Coffee,
         type: 'dining',
         highlight: true,
         map: 'Starbucks Coffee - Dazaifu Tenmangu Omotesando'
       },
       {
-        time: '11:30–13:30',
-        title: 'HUMAN MADE Fukuoka Flagship Store Pilgrimage',
-        desc: 'Drive back to the trendy Daimyo district to visit NIGO’s iconic HUMAN MADE Flagship Store. Pick up Fukuoka-exclusive tees, accessories, and stylish family pieces.',
-        icon: ShoppingBag,
-        type: 'shopping',
-        highlight: true,
-        map: 'HUMAN MADE FUKUOKA'
+        time: '11:00–12:30',
+        title: 'Drive to Mitsui LaLaport Fukuoka & 1:1 Life-Size ν Gundam',
+        desc: 'Drive 20 minutes to Mitsui Shopping Park LaLaport Fukuoka (spacious indoor parking). Photograph the towering 24.8-meter RX-93ff ν Gundam statue at the forest plaza and enjoy lunch at the 3F Food Court.',
+        icon: Car,
+        type: 'transit',
+        map: 'RX-93ff Gundam LaLaport Fukuoka'
       },
       {
-        time: 'Afternoon–Evening',
-        title: 'Daimyo Streetwear & Vintage Boutiques (Supreme / Stussy / NBHD)',
-        desc: 'Stroll through Daimyo alleyways exploring Supreme, Stussy, Neighborhood, BEAMS, and specialty indie coffee shops.',
-        icon: Footprints,
-        type: 'shopping',
-        map: 'Daimyo Fukuoka'
+        time: '13:00–18:30',
+        title: 'KidZania Fukuoka (キッザニア福岡) Real Career City Experience (Christmas Eve Edition)',
+        desc: 'Located on 2F of LaLaport Fukuoka! Children put on authentic mini uniforms to role-play 60+ real-world professions including airline pilots, firefighters, pastry chefs, pizza makers, voice actors, and police officers. Kids earn official "KidZo" currency to learn financial independence. Enjoy special Christmas Eve tasks in a warm, weather-proof indoor environment while parents shop across 200+ retail brands (Gundam Side-F, Jump Shop, Japanese lifestyle goods).',
+        icon: Baby,
+        type: 'activity',
+        highlight: true,
+        map: 'KidZania Fukuoka'
+      },
+      {
+        time: '19:00 onwards',
+        title: 'Christmas Eve Dinner & Fukuoka Winter Illuminations',
+        desc: 'Enjoy a celebratory Christmas Eve dinner at LaLaport or back in Tenjin, then stroll through Tenjin Kego Park and Nakasu-Kawabata to admire sparkling Christmas trees and holiday light festivals.',
+        icon: Utensils,
+        type: 'dining',
+        map: 'Tenjin Christmas Market'
       }
     ],
     notes: [
-      { text: 'Golden Hour: Arriving at Dazaifu by 8:30 AM allows tranquil photography and zero queues at Starbucks.' },
-      { text: 'Daimyo Parking: Streets in Daimyo are narrow; park at larger underground lots on Kokutai Road and explore on foot.' }
+      { text: 'KidZania Advance Booking: KidZania Fukuoka runs Part 1 (09:00-14:30) and Part 2 (15:30-20:00) sessions. Advance online reservation is highly recommended for Christmas Eve.' },
+      { text: 'LaLaport Parking: Features over 3,000 indoor parking spaces; retail purchases qualify for complimentary parking validation.' },
+      { text: 'Golden Hour at Dazaifu: 8:30 AM arrival guarantees serene photos with zero queues at Starbucks.' }
     ]
   },
   {
