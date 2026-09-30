@@ -44,7 +44,7 @@ export default function App() {
             <div>
               <div className="flex items-center gap-2">
                 <h1 className="text-sm sm:text-base font-bold text-white tracking-tight">
-                  KYUSHU ROAD TRIP 2025
+                  KYUSHU ROAD TRIP 2026
                 </h1>
                 <span className="hidden sm:inline-block px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-amber-500/10 text-amber-400 border border-amber-500/20">
                   ENGLISH EDITION
@@ -94,7 +94,7 @@ export default function App() {
             <div>
               <div className="flex flex-wrap items-center gap-2 mb-2">
                 <span className="px-2.5 py-0.5 rounded-full text-xs font-mono font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30">
-                  DEC 19 – DEC 28, 2025
+                  DEC 19 – DEC 28, 2026
                 </span>
                 <span className="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
                   Thai Driver Regulation Ready (1949 IDP)
@@ -191,7 +191,7 @@ export default function App() {
       {/* Footer */}
       <footer className="max-w-5xl mx-auto px-4 sm:px-6 pt-12 text-center text-xs text-slate-400 space-y-2">
         <div className="flex items-center justify-center gap-2">
-          <span>Kyushu Winter Expedition 2025</span>
+          <span>Kyushu Winter Expedition 2026</span>
           <span>•</span>
           <span>English Edition</span>
           <span>•</span>

@@ -67,7 +67,7 @@ export default function DashboardStatus() {
           <div className="flex items-center justify-between">
             <div>
               <div className="text-2xl font-bold tracking-tight text-white">BR106</div>
-              <div className="text-xs text-slate-400 mt-0.5">Dec 19, 2025 (Fri)</div>
+              <div className="text-xs text-slate-400 mt-0.5">Dec 19, 2026 (Sat)</div>
             </div>
             <div className="text-right">
               <div className="text-lg font-bold text-emerald-400">11:15 AM</div>
@@ -92,7 +92,7 @@ export default function DashboardStatus() {
           <div className="flex items-center justify-between">
             <div>
               <div className="text-2xl font-bold tracking-tight text-white">BR105</div>
-              <div className="text-xs text-slate-400 mt-0.5">Dec 28, 2025 (Sun)</div>
+              <div className="text-xs text-slate-400 mt-0.5">Dec 28, 2026 (Mon)</div>
             </div>
             <div className="text-right">
               <div className="text-lg font-bold text-indigo-400">12:15 PM</div>
@@ -100,7 +100,7 @@ export default function DashboardStatus() {
             </div>
           </div>
           <div className="mt-3 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400">
-            <span>Return car at 09:30 AM</span>
+            <span>Return car at 08:30 AM</span>
             <span className="font-semibold text-slate-300">Free Airport Shuttle</span>
           </div>
         </div>

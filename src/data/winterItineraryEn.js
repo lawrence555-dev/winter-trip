@@ -23,7 +23,7 @@ import {
 export const winterItineraryEn = [
   {
     day: 1,
-    date: 'Dec 19 (Fri)',
+    date: 'Dec 19 (Sat)',
     title: 'Arrival in Fukuoka ➔ Beppu Hells Onsen ➔ Luxury Glamping BBQ',
     summary: 'Arrive at Fukuoka Airport at 11:15 AM (Flight BR106), pick up rental car at International Terminal, activate KEP Pass, drive to Beppu to explore Umi Jigoku, and check in at GRAND VERDE RESORT for an outdoor Wagyu BBQ feast.',
     region: 'Fukuoka ➔ Beppu, Oita',
@@ -72,7 +72,7 @@ export const winterItineraryEn = [
   },
   {
     day: 2,
-    date: 'Dec 20 (Sat)',
+    date: 'Dec 20 (Sun)',
     title: 'Kyushu African Safari Jungle Bus ➔ Yufuin Private Onsen Villa',
     summary: 'Drive 25 minutes to Kyushu African Safari to feed wild beasts from the Jungle Bus, then head to Yufuin to check in at Rakuten STAY VILLA with a private hot spring bath and stroll around Yunotsubo Street.',
     region: 'Beppu ➔ Yufuin',
@@ -121,7 +121,7 @@ export const winterItineraryEn = [
   },
   {
     day: 3,
-    date: 'Dec 21 (Sun)',
+    date: 'Dec 21 (Mon)',
     title: 'Kinrin Lake Morning Mist ➔ Tosu Premium Outlets ➔ LaLaport Gundam ➔ Tenjin',
     summary: 'Photograph the winter morning mist over Lake Kinrin, drive to Tosu Premium Outlets for premier sportswear shopping, visit the 1:1 scale Gundam at LaLaport Fukuoka, and check in at Tenjin.',
     region: 'Yufuin ➔ Tosu ➔ Fukuoka Tenjin',
@@ -185,7 +185,7 @@ export const winterItineraryEn = [
   },
   {
     day: 4,
-    date: 'Dec 22 (Mon)',
+    date: 'Dec 22 (Tue)',
     title: 'Ohori Park Zone 2 Morning Run ＋ Lakeside Starbucks Family Breakfast',
     summary: 'Drive to Ohori Park for a premier 2km Zone 2 loop run; family enjoys a relaxed breakfast overlooking the lake at Starbucks, followed by casual Tenjin shopping.',
     region: 'Fukuoka City (Ohori / Tenjin)',
@@ -234,7 +234,7 @@ export const winterItineraryEn = [
   },
   {
     day: 5,
-    date: 'Dec 23 (Tue)',
+    date: 'Dec 23 (Wed)',
     title: 'Kids Fun Day: Anpanman Children’s Museum ➔ Tenjin Shopping',
     summary: 'Full indoor winter-proof day: Anpanman Children’s Museum at Hakata Riverain with live shows and character bakery, afternoon shopping at Iwataya/Daimaru, and authentic Hakata Ramen for dinner.',
     region: 'Fukuoka City (Nakasu-Kawabata / Tenjin)',
@@ -274,7 +274,7 @@ export const winterItineraryEn = [
   },
   {
     day: 6,
-    date: 'Dec 24 (Wed)',
+    date: 'Dec 24 (Thu)',
     title: 'Dazaifu Starbucks ➔ Mitsui LaLaport Gundam ➔ KidZania Fukuoka (Christmas Eve Special)',
     summary: 'Early morning coffee at Kengo Kuma’s Dazaifu Starbucks and shrine blessings, midday photos with the 1:1 scale RX-93ff ν Gundam at LaLaport Fukuoka, and a magical afternoon at KidZania Fukuoka where kids role-play real careers on Christmas Eve!',
     region: 'Dazaifu ➔ Mitsui LaLaport Fukuoka (KidZania) ➔ Tenjin',
@@ -332,7 +332,7 @@ export const winterItineraryEn = [
   },
   {
     day: 7,
-    date: 'Dec 25 (Thu)',
+    date: 'Dec 25 (Fri)',
     title: 'Northern Kyushu Expedition: Karato Market ➔ Mojiko Retro ➔ THE OUTLETS KITAKYUSHU',
     summary: 'Cross the Kanmon Straits Bridge for fresh sashimi at Karato Market, explore Mojiko Retro Railway Museum, and spend the afternoon at THE OUTLETS KITAKYUSHU with Wagyu Yakiniku dinner.',
     region: 'Fukuoka ➔ Shimonoseki ➔ Mojiko ➔ Kitakyushu',
@@ -389,7 +389,7 @@ export const winterItineraryEn = [
   },
   {
     day: 8,
-    date: 'Dec 26 (Fri)',
+    date: 'Dec 26 (Sat)',
     title: 'Itoshima Coastal Holiday: Sakurai Futamigaura ➔ Grilled Oyster Feast at Noburin',
     summary: 'Drive 45 minutes west to scenic Itoshima to see the White Torii Gate & Married Couple Rocks, indulge in winter charcoal-grilled oysters at Noburin, and take a coastal drive.',
     region: 'Fukuoka City ➔ Itoshima Coast',
@@ -438,7 +438,7 @@ export const winterItineraryEn = [
   },
   {
     day: 9,
-    date: 'Dec 27 (Sat)',
+    date: 'Dec 27 (Sun)',
     title: 'Uminonakamichi Seaside Park: Marine World Aquarium & Giant Playgrounds',
     summary: 'Drive to Uminonakamichi to watch dolphin shows at Marine World, followed by high-energy outdoor climbing domes and giant roller slides, with your car ready for afternoon naps.',
     region: 'Fukuoka City ➔ Uminonakamichi',
@@ -486,7 +486,7 @@ export const winterItineraryEn = [
   },
   {
     day: 10,
-    date: 'Dec 28 (Sun/Mon)',
+    date: 'Dec 28 (Mon)',
     title: 'Final Morning ➔ Fukuoka Airport Car Return ➔ 12:15 BR105 Departure',
     summary: 'Check out of hotel, return rental car at the airport branch, take the complimentary shuttle to International Terminal, and board EVA Air Flight BR105 back home.',
     region: 'Fukuoka City ➔ Fukuoka Airport ➔ Home',
