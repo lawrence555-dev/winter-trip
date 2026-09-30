@@ -174,7 +174,7 @@ function App() {
                                         <div>
                                             <div className="flex items-center gap-2">
                                                 <span className="font-bold text-slate-900 bg-slate-100 px-2 py-0.5 rounded text-xs font-mono">
-                                                    12/19 (五)
+                                                    12/19 (六)
                                                 </span>
                                                 <span className="font-bold text-slate-900 text-sm">去程 BR106 ｜ 11:15 抵達福岡</span>
                                             </div>

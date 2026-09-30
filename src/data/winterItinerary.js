@@ -23,7 +23,7 @@ import {
 export const winterItinerary = [
   {
     day: 1,
-    date: '12/19 (週五)',
+    date: '12/19 (週六)',
     title: '啟程九州 ➔ 別府海地獄 ➔ 奢華 Glamping BBQ',
     summary: '搭乘長榮 BR106 於 11:15 抵達福岡機場，辦理國際線取車與 KEP，一路開往別府快閃海地獄，夜宿 GRAND VERDE RESORT 享受極致露營 BBQ。',
     region: '福岡 ➜ 大分別府',
@@ -87,7 +87,7 @@ export const winterItinerary = [
   },
   {
     day: 2,
-    date: '12/20 (週六)',
+    date: '12/20 (週日)',
     title: '九州自然動物園 叢林巴士 ➔ 由布院私人溫泉別墅',
     summary: '退房後開車 25 分鐘衝九州自然動物園餵猛獸，下午入住 Rakuten STAY VILLA 由布院溫泉，漫步湯之坪與童話村。',
     region: '別府 ➜ 由布院',
@@ -146,7 +146,7 @@ export const winterItinerary = [
   },
   {
     day: 3,
-    date: '12/21 (週日)',
+    date: '12/21 (週一)',
     title: '金鱗湖冬晨霧 ➔ 鳥栖 Outlet 大採購 ➔ LaLaport 鋼彈 ➔ 天神',
     summary: '清晨拍攝金鱗湖夢幻霧氣，開車前往鳥栖 Outlet 開啟第一波運動潮流血拚，午後福岡 LaLaport 朝聖實物大鋼彈，夜宿天神。',
     region: '由布院 ➜ 鳥栖 ➜ 福岡天神',
@@ -220,7 +220,7 @@ export const winterItinerary = [
   },
   {
     day: 4,
-    date: '12/22 (週一)',
+    date: '12/22 (週二)',
     title: '大濠公園 Zone 2 晨跑 ＋ 湖畔星巴克親子悠閒早餐',
     summary: '清晨自駕直達大濠公園專屬停車場，開啟 2km 環湖頂級 Zone 2 晨跑；家人在絕美星巴克享用早餐，午後天神悠閒漫步。',
     region: '福岡市區 (大濠 / 天神)',
@@ -279,7 +279,7 @@ export const winterItinerary = [
   },
   {
     day: 5,
-    date: '12/23 (週二)',
+    date: '12/23 (週三)',
     title: '帶小孩極限放電！福岡麵包超人兒童博物館 ➔ 天神百貨',
     summary: '全日室內溫暖防風行程：博多 Riverain 麵包超人博物館全方位遊樂與限定現烤麵包，下午天神岩田屋/大丸購物，夜嚐正宗博多拉麵。',
     region: '福岡市區 (中洲川端 / 天神)',
@@ -324,7 +324,7 @@ export const winterItinerary = [
   },
   {
     day: 6,
-    date: '12/24 (週三)',
+    date: '12/24 (週四)',
     title: '太宰府星巴克朝聖 ➔ 三井 LaLaport 鋼彈 ➔ KidZania 福岡兒童職業體驗城 (平安夜特別企劃)',
     summary: '早晨直奔太宰府天滿宮享受隈研吾星巴克靜謐早餐，午前前往三井 LaLaport 福岡打卡 1:1 實物大 ν 鋼彈，下午讓孩子在「KidZania 福岡」穿上迷你制服全方位體驗機師/消防員/甜點師等夢幻職業，全家度過溫馨平安夜！',
     region: '太宰府 ➜ 三井 LaLaport 福岡 (KidZania) ➜ 天神',
@@ -397,7 +397,7 @@ export const winterItinerary = [
   },
   {
     day: 7,
-    date: '12/25 (週四)',
+    date: '12/25 (週五)',
     title: '北九州長征：唐戶市場海鮮 ➔ 門司港 ➔ THE OUTLETS KITAKYUSHU',
     summary: '跨越關門海峽大橋品嚐唐戶市場生魚片，漫步門司港懷舊鐵道館，下午衝九州最大新世代 Outlet「THE OUTLETS KITAKYUSHU」與極致和牛燒肉。',
     region: '福岡 ➜ 山口下關 ➔ 門司港 ➔ 北九州八幡',
@@ -464,7 +464,7 @@ export const winterItinerary = [
   },
   {
     day: 8,
-    date: '12/26 (週五)',
+    date: '12/26 (週六)',
     title: '糸島絕景渡假一日遊：夫婦岩 ➔ 烤牡蠣 のぶりん 肥美午餐',
     summary: '自駕 45 分鐘前往福岡後花園糸島，造訪二見之浦純白鳥居夫婦岩，冬季必吃岐志漁港炭火現烤肥美生蠔海鮮，傍晚海岸兜風。',
     region: '福岡市區 ➜ 糸島海岸',
@@ -523,7 +523,7 @@ export const winterItinerary = [
   },
   {
     day: 9,
-    date: '12/27 (週六)',
+    date: '12/27 (週日)',
     title: '海之中道海濱公園：海洋世界水族館 ＋ 巨型戶外遊具放電',
     summary: '自駕前往海之中道，看海洋世界海豚與海獅表演，下午衝海濱公園超大型彈跳床與滾輪溜滑梯，車輛隨時作為午睡後勤站。',
     region: '福岡市區 ➜ 海之中道',
@@ -576,7 +576,7 @@ export const winterItinerary = [
   },
   {
     day: 10,
-    date: '12/28 (週日/一)',
+    date: '12/28 (週一)',
     title: '最後巡禮 ➔ 福岡機場還車 ➔ 12:15 BR105 滿載返台',
     summary: '退房後清點所有戰利品，開車至機場租車營業所快速還車，搭乘接駁車至國際線航廈辦理長榮 BR105 登機手續，平安返台。',
     region: '福岡市區 ➔ 福岡機場 ➔ 台灣桃園 (TPE)',

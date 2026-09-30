@@ -86,7 +86,7 @@ export default function RentalCarCard() {
             </span>
           </div>
           <div className="text-sm sm:text-base font-black font-mono text-slate-950">
-            12/19 (五) 12:00
+            12/19 (六) 12:00
           </div>
           <div className="text-xs text-slate-600">
             店鋪：<strong className="text-slate-900">{carRentalReservation.pickupStore}</strong>
@@ -104,7 +104,7 @@ export default function RentalCarCard() {
             </span>
           </div>
           <div className="text-sm sm:text-base font-black font-mono text-slate-950">
-            12/28 (日) 08:30
+            12/28 (一) 08:30
           </div>
           <div className="text-xs text-slate-600">
             店鋪：<strong className="text-slate-900">{carRentalReservation.returnStore}</strong>
