@@ -251,16 +251,22 @@ export const winterItinerary = [
       },
       {
         time: '11:30–14:30',
-        title: '天神商圈市區散策 ＆ 在地美食午餐',
-        desc: '漫步天神地下街與周邊特色巷弄，午餐品嚐福岡著名的博多牛腸鍋（もつ鍋）、一雙拉麵或海鮮丼飯。',
-        icon: Utensils,
-        type: 'dining',
-        map: 'Tenjin Underground Shopping Mall'
+        title: '朝聖 HUMAN MADE 福岡旗艦店 ＆ 大名潮流街區',
+        desc: '開車返回天神大名（Daimyo）潮流心臟地帶！朝聖 NIGO 主理的 HUMAN MADE Flagship Shop，入手福岡限定款白虎/野鴨上衣與潮流配件，漫步大名街區探索 Supreme、Stussy、BEAMS，午餐品嚐福岡著名的博多牛腸鍋（もつ鍋）或一雙豚骨拉麵。',
+        icon: ShoppingBag,
+        type: 'shopping',
+        highlight: true,
+        map: 'HUMAN MADE FUKUOKA',
+        camera: {
+          mode: '3x 哈蘇人像 (等效 85mm)',
+          desc: '天神大名潮流街拍與戰利品合影',
+          settings: '大光圈散景模糊大名街頭背景，呈現日系 Clean Fit 潮流雜誌感'
+        }
       },
       {
         time: '下午–晚上',
-        title: '天神百貨群逛街 ＆ 親子悠閒時光',
-        desc: '逛福岡 PARCO、三越百貨，隨心探索市區選物店，度過節奏寬鬆的一天。',
+        title: '天神百貨群逛街（PARCO / 岩田屋） ＆ 親子悠閒時光',
+        desc: '逛福岡 PARCO、岩田屋、三越百貨，隨心探索市區選物店與特色咖啡館，度過節奏寬鬆的市區潮流生活日。',
         icon: ShoppingBag,
         type: 'shopping',
         map: 'Fukuoka PARCO'
@@ -319,23 +325,23 @@ export const winterItinerary = [
   {
     day: 6,
     date: '12/24 (週三)',
-    title: '太宰府星巴克「朝聖早餐」 ➔ 天神 Human Made 潮流巡禮',
-    summary: '清晨避開人潮直奔隈研吾太宰府星巴克早餐與天滿宮祈福，午前回天神大名朝聖 HUMAN MADE 旗艦店與潮流街區。',
-    region: '太宰府 ➜ 福岡天神大名',
-    driveTime: '約 30 分鐘 (早晨順暢車流)',
+    title: '太宰府星巴克朝聖 ➔ 三井 LaLaport 鋼彈 ➔ KidZania 福岡兒童職業體驗城 (平安夜特別企劃)',
+    summary: '早晨直奔太宰府天滿宮享受隈研吾星巴克靜謐早餐，午前前往三井 LaLaport 福岡打卡 1:1 實物大 ν 鋼彈，下午讓孩子在「KidZania 福岡」穿上迷你制服全方位體驗機師/消防員/甜點師等夢幻職業，全家度過溫馨平安夜！',
+    region: '太宰府 ➜ 三井 LaLaport 福岡 (KidZania) ➜ 天神',
+    driveTime: '約 35 分鐘 (太宰府 ➔ LaLaport 20分，LaLaport ➔ 天神 15分)',
     stay: '福岡天神商圈優質飯店',
     activities: [
       {
         time: '08:00–08:30',
         title: '自駕直奔太宰府天滿宮',
-        desc: '清晨 08:00 出發避開上下班尖峰與後續各國遊覽車團客潮，約 30 分鐘抵達太宰府周邊停車場。',
+        desc: '清晨 08:00 出發避開上下班尖峰與遊覽車團客潮，約 25 分鐘順暢抵達太宰府周邊停車場。',
         icon: Car,
         type: 'transit',
         map: 'Dazaifu Tenmangu Parking'
       },
       {
         time: '08:30–10:30',
-        title: '太宰府天滿宮表參道星巴克 ＆ 天滿宮梅枝餅',
+        title: '太宰府天滿宮表參道隈研吾星巴克 ＆ 梅枝餅祈福',
         desc: '在隈研吾大師運用 2000 根杉木卡榫交錯設計的絕美星巴克享用熱咖啡與早餐！隨後漫步參拜天滿宮（求學業與家庭平安），品嚐現烤酥脆的「梅枝餅 (Umegae Mochi)」。',
         icon: Coffee,
         type: 'dining',
@@ -348,31 +354,45 @@ export const winterItinerary = [
         }
       },
       {
-        time: '11:30–13:30',
-        title: '朝聖 HUMAN MADE 福岡 Flagship Shop！',
-        desc: '開車返回天神大名（Daimyo）潮流心臟地帶！朝聖 NIGO 主理的 HUMAN MADE 旗艦店，入手福岡限定款白虎/野鴨上衣、生活潮流配件或親子裝。',
-        icon: ShoppingBag,
-        type: 'shopping',
-        highlight: true,
-        map: 'HUMAN MADE FUKUOKA',
+        time: '11:00–12:30',
+        title: '自駕直達三井 LaLaport 福岡 ＆ 1:1 實物大 ν 鋼彈立像合影',
+        desc: '自駕約 20 分鐘抵達三井購物園區 LaLaport 福岡（室內大停車場超好停！）。前往戶外森林廣場打卡全高 24.8 公尺的「RX-93ff ν 鋼彈」，並於館內 3 樓美食街享用午餐。',
+        icon: Car,
+        type: 'transit',
+        map: 'RX-93ff Gundam LaLaport Fukuoka',
         camera: {
-          mode: '3x 哈蘇人像 (等效 85mm)',
-          desc: '天神大名潮流街拍與戰利品合影',
-          settings: '大光圈散景模糊大名街頭背景，呈現日系 Clean Fit 潮流雜誌感'
+          mode: '1x 超廣角仰拍 / 3x 長焦頭部特寫',
+          desc: '1:1 鋼彈雄偉全景與胸甲細節',
+          settings: '仰角 0.6x 超廣角貼近地面拍出頂天立地氣勢；3x 鎖定頭部與發光眼神'
         }
       },
       {
-        time: '下午–傍晚',
-        title: '天神大名潮流街區漫步 (Supreme / Stussy / NBHD)',
-        desc: '漫步大名街區探索 Supreme、Stussy、Neighborhood、BEAMS 及各式精品古著店與獨立咖啡館。',
-        icon: Footprints,
-        type: 'shopping',
-        map: 'Daimyo Fukuoka'
+        time: '13:00–18:30',
+        title: 'KidZania Fukuoka（キッザニア福岡）兒童職業體驗樂園 (平安夜特別企劃)',
+        desc: '位於 LaLaport 福岡 2 樓的超人氣兒童職業體驗樂園！4-5 歲孩子穿上專屬迷你制服，體驗機師、消防隊滅火、甜點師、披薩廚師、杜比配音員、警察等 60+ 種真實職業。完成工作可賺取專屬「KidZo」薪資貨幣，學習工作與金錢價值。平安夜限定聖誕拍照與職業任務，全室內舒適不受冬日冷風影響！家長可輪流於 LaLaport 商場享受 200+ 間品牌購物（Gundam Side-F、Jump Shop、日系生活選品）。',
+        icon: Baby,
+        type: 'activity',
+        highlight: true,
+        map: 'KidZania Fukuoka',
+        camera: {
+          mode: '哈蘇大師人像 (3x 潛望鏡) / 1x 抓拍',
+          desc: '孩子穿著小機師/小消防員制服的認真神情',
+          settings: '室內暖色光源，EV +0.7 提亮膚色，快門 1/250s 抓拍孩子興奮操作與領取薪資證書的珍貴畫面'
+        }
+      },
+      {
+        time: '19:00～',
+        title: '平安夜溫馨聖誕大餐 ＆ 天神/博多聖誕璀璨點燈巡禮',
+        desc: '於 LaLaport 或返回天神市區享用聖誕晚宴，漫步天神警固公園與中洲川端，欣賞九州冬季限定的浪漫聖誕市集與絢爛聖誕樹燈海。',
+        icon: Utensils,
+        type: 'dining',
+        map: 'Tenjin Christmas Market'
       }
     ],
     notes: [
-      { text: '【太宰府黃金時段】08:30 抵達是最佳時間點，店內人少好拍照，天滿宮表參道空靈幽靜。' },
-      { text: '【大名停車建議】天神大名巷弄較窄，建議將車輛停在國體道路或天神地下大型停車場再步行逛街。' }
+      { text: '【KidZania 預約提醒】KidZania 福岡位於 LaLaport 2 樓，分為第1部（09:00-14:30）與第2部（15:30-20:00）或 8 小時票券，因適逢平安夜與日本冬季假期，強烈建議出發前於官網提早預約確認入場場次。' },
+      { text: '【LaLaport 停車優勢】LaLaport 擁有逾 3,000 個室內大型停車位，自駕前往極為便利，在館內消費滿額可直接折抵停車費。' },
+      { text: '【太宰府黃金時段】08:30 抵達是最佳時間點，店內人少好拍照，天滿宮表參道空靈幽靜。' }
     ]
   },
   {
