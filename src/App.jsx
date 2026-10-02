@@ -575,7 +575,7 @@ function App() {
                                             <div className="text-slate-800 space-y-1.5 text-xs sm:text-sm leading-relaxed">
                                                 <p>• <strong>強勢品牌</strong>：Nike、Adidas、Under Armour、New Balance、The North Face、Columbia、Asics。</p>
                                                 <p>• <strong>採購策略</strong>：主攻跑鞋、跑步壓力緊身褲、保暖風衣與滑雪裝備，折扣極深。</p>
-                                                <p>• <strong>自駕後勤</strong>：買完大包戰利品直接丟入後車廂，輕便回天神飯店。</p>
+                                                <p>• <strong>自駕後勤</strong>：買完大包戰利品直接丟入後車廂，輕便回十字生活博多天神飯店。</p>
                                             </div>
                                         </div>
 

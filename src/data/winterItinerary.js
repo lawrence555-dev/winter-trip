@@ -151,7 +151,7 @@ export const winterItinerary = [
     summary: '清晨拍攝金鱗湖夢幻霧氣，開車前往鳥栖 Outlet 開啟第一波運動潮流血拚，午後福岡 LaLaport 朝聖實物大鋼彈，夜宿天神。',
     region: '由布院 ➜ 鳥栖 ➜ 福岡天神',
     driveTime: '約 2 小時 15 分鐘 (分段 1h15m + 45m)',
-    stay: '福岡天神商圈優質飯店 (市區自駕基地)',
+    stay: '十字生活博多天神飯店 (クロスライフ博多天神 / Cross Life Hakata Tenjin)',
     activities: [
       {
         time: '08:30–09:30',
@@ -206,15 +206,15 @@ export const winterItinerary = [
       },
       {
         time: '19:00',
-        title: '天神飯店 Check-in ＆ 行李輕量化上樓',
-        desc: '開車抵達天神飯店停車場。戰利品與大部分行李直接安全鎖在車內後車廂，全家僅攜帶隨身「輕便過夜包」進房，徹底解放雙手！',
+        title: '入住十字生活博多天神飯店 ＆ 行李輕量化上樓',
+        desc: '開車抵達「十字生活博多天神飯店 (クロスライフ博多天神)」。戰利品與大部分行李直接安全鎖在車內後車廂，全家僅攜帶隨身「輕便過夜包」進房，享受現代設計感客房與數位藝術大浴場放鬆！',
         icon: Hotel,
         type: 'stay',
         map: 'Tenjin Fukuoka'
       }
     ],
     notes: [
-      { text: '【自駕免搬行李心法】車子停進飯店特約或室內停車場後，免去搬運大行李箱的疲勞，只需拎過夜包上樓。' },
+      { text: '【自駕免搬行李心法】12/21-12/28 連續 7 晚入住十字生活博多天神飯店，車子停妥後免去每日搬運大行李箱的疲勞，只需拎過夜包上樓。' },
       { text: '【鳥栖 Outlet 特點】主打強大運動與戶外服飾（Nike/NB/Patagonia/Arc\'teryx折扣極深）。' }
     ]
   },
@@ -225,7 +225,7 @@ export const winterItinerary = [
     summary: '清晨自駕直達大濠公園專屬停車場，開啟 2km 環湖頂級 Zone 2 晨跑；家人在絕美星巴克享用早餐，午後天神悠閒漫步。',
     region: '福岡市區 (大濠 / 天神)',
     driveTime: '約 15 分鐘 (市區短程)',
-    stay: '福岡天神商圈優質飯店',
+    stay: '十字生活博多天神飯店 (クロスライフ博多天神)',
     activities: [
       {
         time: '07:30–09:00',
@@ -244,7 +244,7 @@ export const winterItinerary = [
       {
         time: '09:00–10:30',
         title: '公園水鳥觀賞 ＆ 湖中島漫步 ➔ 回飯店盥洗',
-        desc: '跑步結束後與家人在湖心島「觀月橋」會合，全家在公園草地漫步散心，隨後自駕回天神飯店盥洗換裝。',
+        desc: '跑步結束後與家人在湖心島「觀月橋」會合，全家在公園草地漫步散心，隨後自駕回十字生活博多天神飯店盥洗換裝。',
         icon: Sun,
         type: 'nature',
         map: 'Ohori Park Fukuoka'
@@ -284,7 +284,7 @@ export const winterItinerary = [
     summary: '全日室內溫暖防風行程：博多 Riverain 麵包超人博物館全方位遊樂與限定現烤麵包，下午天神岩田屋/大丸購物，夜嚐正宗博多拉麵。',
     region: '福岡市區 (中洲川端 / 天神)',
     driveTime: '約 10 分鐘 (市區短程或步行地鐵皆宜)',
-    stay: '福岡天神商圈優質飯店',
+    stay: '十字生活博多天神飯店 (クロスライフ博多天神)',
     activities: [
       {
         time: '10:00–14:30',
@@ -329,7 +329,7 @@ export const winterItinerary = [
     summary: '早晨直奔太宰府天滿宮享受隈研吾星巴克靜謐早餐，午前前往三井 LaLaport 福岡打卡 1:1 實物大 ν 鋼彈，下午讓孩子在「KidZania 福岡」穿上迷你制服全方位體驗機師/消防員/甜點師等夢幻職業，全家度過溫馨平安夜！',
     region: '太宰府 ➜ 三井 LaLaport 福岡 (KidZania) ➜ 天神',
     driveTime: '約 35 分鐘 (太宰府 ➔ LaLaport 20分，LaLaport ➔ 天神 15分)',
-    stay: '福岡天神商圈優質飯店',
+    stay: '十字生活博多天神飯店 (クロスライフ博多天神)',
     activities: [
       {
         time: '08:00–08:30',
@@ -402,7 +402,7 @@ export const winterItinerary = [
     summary: '跨越關門海峽大橋品嚐唐戶市場生魚片，漫步門司港懷舊鐵道館，下午衝九州最大新世代 Outlet「THE OUTLETS KITAKYUSHU」與極致和牛燒肉。',
     region: '福岡 ➜ 山口下關 ➔ 門司港 ➔ 北九州八幡',
     driveTime: '約 2 小時 40 分鐘 (全天分段環狀自駕)',
-    stay: '福岡天神商圈優質飯店',
+    stay: '十字生活博多天神飯店 (クロスライフ博多天神)',
     activities: [
       {
         time: '08:30–09:45',
@@ -469,7 +469,7 @@ export const winterItinerary = [
     summary: '自駕 45 分鐘前往福岡後花園糸島，造訪二見之浦純白鳥居夫婦岩，冬季必吃岐志漁港炭火現烤肥美生蠔海鮮，傍晚海岸兜風。',
     region: '福岡市區 ➜ 糸島海岸',
     driveTime: '約 45 分鐘 (單程西向自駕)',
-    stay: '福岡天神商圈優質飯店',
+    stay: '十字生活博多天神飯店 (クロスライフ博多天神)',
     activities: [
       {
         time: '09:30–10:15',
@@ -528,7 +528,7 @@ export const winterItinerary = [
     summary: '自駕前往海之中道，看海洋世界海豚與海獅表演，下午衝海濱公園超大型彈跳床與滾輪溜滑梯，車輛隨時作為午睡後勤站。',
     region: '福岡市區 ➜ 海之中道',
     driveTime: '約 40 分鐘 (單程跨海公路)',
-    stay: '福岡天神商圈優質飯店',
+    stay: '十字生活博多天神飯店 (クロスライフ博多天神)',
     activities: [
       {
         time: '09:30–10:15',
@@ -564,7 +564,7 @@ export const winterItinerary = [
       {
         time: '傍晚',
         title: '返回福岡市區 ＆ 最後戰利品大整理',
-        desc: '開車回飯店，悠閒享用福岡最後一晚的豐盛晚餐，並在房內將這十天的雙 Outlet 戰利品分門別類裝箱。',
+        desc: '開車回十字生活博多天神飯店，悠閒享用福岡最後一晚的豐盛晚餐，並在房內將這十天的雙 Outlet 戰利品分門別類裝箱。',
         icon: Hotel,
         type: 'stay',
         map: 'Tenjin Fukuoka'
@@ -586,7 +586,7 @@ export const winterItinerary = [
       {
         time: '07:30–08:00',
         title: '飯店辦理退房 ＆ 行李全數上車',
-        desc: '辦理飯店退房，所有大件行李箱與戰利品確認收妥於 SIENTA 後車廂，清點護照、駕照與貴重物品。',
+        desc: '辦理十字生活博多天神飯店退房，所有大件行李箱與戰利品確認收妥於 SIENTA 後車廂，清點護照、駕照與貴重物品。',
         icon: Hotel,
         type: 'stay',
         map: 'Tenjin Fukuoka'
@@ -650,7 +650,7 @@ export const drivingHighlights = [
   {
     title: '免搬行李「過夜包」極簡心法',
     summary: '戰利品鎖後車廂，天神連住僅拎隨身包',
-    desc: '在由布院與天神飯店住宿時，大部分行李箱與 Outlet 大件戰利品直接鎖在車內後車廂，進飯店只帶輕便過夜包（換洗衣物與盥洗包），省去每日上下搬運沉重行李的負擔。',
+    desc: '在由布院與十字生活博多天神飯店（12/21 入住至 12/28 退房連住 7 晚）住宿時，大部分行李箱與 Outlet 大件戰利品直接鎖在車內後車廂，進飯店只帶輕便過夜包（換洗衣物與盥洗包），省去每日上下搬運沉重行李的負擔。',
     tag: '家庭後勤',
     icon: Hotel
   }
