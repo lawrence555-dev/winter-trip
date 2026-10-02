@@ -45,6 +45,16 @@ import DrivingHighlights from './components/DrivingHighlights';
 import PackingList from './components/PackingList';
 import RentalCarCard from './components/RentalCarCard';
 
+const getStayMapQuery = (stayStr) => {
+    if (!stayStr || stayStr.includes('溫暖的家') || stayStr.includes('Home')) return null;
+    if (stayStr.includes('GRAND VERDE RESORT')) return 'GRAND VERDE RESORT 大分県別府市';
+    if (stayStr.includes('Rakuten STAY VILLA') || stayStr.includes('由布院溫泉')) return 'Rakuten STAY VILLA 由布院温泉 大分県由布市';
+    if (stayStr.includes('Cross Life') || stayStr.includes('十字生活') || stayStr.includes('クロスライフ博多天神')) {
+        return 'クロスライフ博多天神 福岡県福岡市中央区春吉3-26-30';
+    }
+    return stayStr;
+};
+
 function App() {
     const [view, setView] = useState('dashboard'); // 'dashboard' | 'itinerary' | 'driving' | 'packing'
     const [selectedDay, setSelectedDay] = useState(1);
