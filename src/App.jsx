@@ -28,7 +28,9 @@ import {
     Activity,
     ShoppingBag,
     Award,
-    QrCode
+    QrCode,
+    Navigation,
+    ExternalLink
 } from 'lucide-react';
 
 // 導入行程資料庫
@@ -440,9 +442,23 @@ function App() {
                                     </p>
 
                                     <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs sm:text-sm text-slate-700">
-                                        <span className="font-medium flex items-center gap-1.5">
-                                            <Bed size={16} className="text-indigo-600" /> {currentDayData.stay}
-                                        </span>
+                                        <div className="font-medium flex items-center gap-1.5 flex-wrap">
+                                            <Bed size={16} className="text-indigo-600 flex-shrink-0" />
+                                            <span>{currentDayData.stay}</span>
+                                            {getStayMapQuery(currentDayData.stay) && (
+                                                <a
+                                                    href={'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(getStayMapQuery(currentDayData.stay))}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    className="inline-flex items-center gap-1 text-xs font-semibold text-indigo-600 hover:text-indigo-700 bg-indigo-50 hover:bg-indigo-100 border border-indigo-200 px-2 py-0.5 rounded-md transition-colors tap-effect ml-1"
+                                                    title="Google 地圖飯店導航"
+                                                >
+                                                    <Navigation size={11} />
+                                                    <span>導航</span>
+                                                    <ExternalLink size={9} className="opacity-60" />
+                                                </a>
+                                            )}
+                                        </div>
                                         <span className="font-mono text-slate-700 bg-slate-100 px-2.5 py-0.5 rounded-md font-medium flex items-center gap-1">
                                             <Car size={12} className="text-slate-500" /> {currentDayData.driveTime}
                                         </span>

@@ -210,7 +210,7 @@ export const winterItinerary = [
         desc: '開車抵達「十字生活博多天神飯店 (クロスライフ博多天神)」。戰利品與大部分行李直接安全鎖在車內後車廂，全家僅攜帶隨身「輕便過夜包」進房，享受現代設計感客房與數位藝術大浴場放鬆！',
         icon: Hotel,
         type: 'stay',
-        map: 'Tenjin Fukuoka'
+        map: 'クロスライフ博多天神 福岡県福岡市中央区春吉3-26-30'
       }
     ],
     notes: [
@@ -247,7 +247,7 @@ export const winterItinerary = [
         desc: '跑步結束後與家人在湖心島「觀月橋」會合，全家在公園草地漫步散心，隨後自駕回十字生活博多天神飯店盥洗換裝。',
         icon: Sun,
         type: 'nature',
-        map: 'Ohori Park Fukuoka'
+        map: 'クロスライフ博多天神 福岡県福岡市中央区春吉3-26-30'
       },
       {
         time: '11:30–14:30',
@@ -567,7 +567,7 @@ export const winterItinerary = [
         desc: '開車回十字生活博多天神飯店，悠閒享用福岡最後一晚的豐盛晚餐，並在房內將這十天的雙 Outlet 戰利品分門別類裝箱。',
         icon: Hotel,
         type: 'stay',
-        map: 'Tenjin Fukuoka'
+        map: 'クロスライフ博多天神 福岡県福岡市中央区春吉3-26-30'
       }
     ],
     notes: [
@@ -589,7 +589,7 @@ export const winterItinerary = [
         desc: '辦理十字生活博多天神飯店退房，所有大件行李箱與戰利品確認收妥於 SIENTA 後車廂，清點護照、駕照與貴重物品。',
         icon: Hotel,
         type: 'stay',
-        map: 'Tenjin Fukuoka'
+        map: 'クロスライフ博多天神 福岡県福岡市中央区春吉3-26-30'
       },
       {
         time: '08:00–08:30',
