@@ -325,40 +325,40 @@ export const winterItinerary = [
   {
     day: 6,
     date: '12/24 (週四)',
-    title: '太宰府星巴克朝聖 ➔ 三井 LaLaport 鋼彈 ➔ KidZania 福岡兒童職業體驗城 (平安夜特別企劃)',
-    summary: '早晨直奔太宰府天滿宮享受隈研吾星巴克靜謐早餐，午前前往三井 LaLaport 福岡打卡 1:1 實物大 ν 鋼彈，下午讓孩子在「KidZania 福岡」穿上迷你制服全方位體驗機師/消防員/甜點師等夢幻職業，全家度過溫馨平安夜！',
-    region: '太宰府 ➜ 三井 LaLaport 福岡 (KidZania) ➜ 天神',
-    driveTime: '約 35 分鐘 (太宰府 ➔ LaLaport 20分，LaLaport ➔ 天神 15分)',
+    title: 'KidZania 福岡英語體驗 ➔ 三井 LaLaport 鋼彈 ➔ 太宰府星巴克 ➔ 平安夜點燈',
+    summary: '平安夜全家重頭戲！上午直奔三井 LaLaport 參加「KidZania 福岡第 1 部 (Shift 1) 全英文體驗梯次 (English Activities Program, 09:00–14:30)」，午後朝聖 1:1 實物大鋼彈立像，傍晚漫步太宰府天滿宮隈研吾星巴克祈福，夜享天神/博多璀璨聖誕市集大餐！',
+    region: '天神 ➜ 三井 LaLaport 福岡 (KidZania) ➜ 太宰府 ➜ 天神',
+    driveTime: '約 40 分鐘 (天神 ➔ LaLaport 15分，LaLaport ➔ 太宰府 20分，太宰府 ➔ 天神 25分)',
     stay: '十字生活博多天神飯店 (クロスライフ博多天神)',
     activities: [
       {
-        time: '08:00–08:30',
-        title: '自駕直奔太宰府天滿宮',
-        desc: '清晨 08:00 出發避開上下班尖峰與遊覽車團客潮，約 25 分鐘順暢抵達太宰府周邊停車場。',
+        time: '08:15–08:45',
+        title: '自駕出發前往三井 LaLaport 福岡 ＆ 報到取號',
+        desc: '清晨從天神飯店出發（約 15 分鐘直達三井 LaLaport 福岡室內大型立體停車場）。搭乘電梯直達 2 樓 KidZania 報到處，出示預約憑證換取入場手環與 Job Schedule Card，準備 09:00 入場！',
         icon: Car,
         type: 'transit',
-        map: 'Dazaifu Tenmangu Parking'
+        map: 'Mitsui Shopping Park LaLaport FUKUOKA'
       },
       {
-        time: '08:30–10:30',
-        title: '太宰府天滿宮表參道隈研吾星巴克 ＆ 梅枝餅祈福',
-        desc: '在隈研吾大師運用 2000 根杉木卡榫交錯設計的絕美星巴克享用熱咖啡與早餐！隨後漫步參拜天滿宮（求學業與家庭平安），品嚐現烤酥脆的「梅枝餅 (Umegae Mochi)」。',
-        icon: Coffee,
-        type: 'dining',
+        time: '09:00–14:30',
+        title: 'KidZania Fukuoka：第 1 部全英文體驗活動 (Shift 1 English Activities Program)',
+        desc: '【平安夜限定・全英語職業體驗】12/24/2026 週四第 1 部 (1st Shift 09:00–14:30) 專屬 English Activities Program (EAP)！4-5 歲孩子穿上專屬迷你制服，在全英語環境中與外籍/雙語專業指導員互動，沉浸式體驗機師、消防員滅火、甜點師、披薩烘焙師、警察、配音員等 60+ 種真實職業。完成工作賺取專屬「KidZo」薪資貨幣，學習工作成就與金錢價值。全室內溫暖舒適，家長可一邊拍攝哈蘇大師珍貴特寫，一邊輪流在 LaLaport 商場享受舒適購物時光！',
+        icon: Baby,
+        type: 'activity',
         highlight: true,
-        map: 'Starbucks Coffee - Dazaifu Tenmangu Omotesando',
+        map: 'KidZania Fukuoka',
         camera: {
-          mode: '1x 主鏡頭大師模式 (建築縱深)',
-          desc: '隈研吾木構幾何線條與表參道晨曦',
-          settings: 'EV +0.3 凸顯原木暖調質感，中央對稱構圖展現空間縱深'
+          mode: '哈蘇大師人像 (3x 潛望鏡) / 1x 抓拍',
+          desc: '孩子穿著小機師/小消防員制服的認真神情與英文互動',
+          settings: '室內暖色光源，EV +0.7 提亮膚色，快門 1/250s 抓拍孩子興奮操作與領取薪資證書的珍貴畫面'
         }
       },
       {
-        time: '11:00–12:30',
-        title: '自駕直達三井 LaLaport 福岡 ＆ 1:1 實物大 ν 鋼彈立像合影',
-        desc: '自駕約 20 分鐘抵達三井購物園區 LaLaport 福岡（室內大停車場超好停！）。前往戶外森林廣場打卡全高 24.8 公尺的「RX-93ff ν 鋼彈」，並於館內 3 樓美食街享用午餐。',
-        icon: Car,
-        type: 'transit',
+        time: '14:30–15:30',
+        title: '1:1 實物大 RX-93ff ν 鋼彈合影 ＆ LaLaport 遲午餐/下午茶',
+        desc: '體驗結束後漫步至 LaLaport 戶外森林廣場，打卡全高 24.8 公尺超壯觀「RX-93ff ν 鋼彈」立像，近距離欣賞精緻胸甲細節。隨後於商場美食街或特色餐廳享用遲午餐與熱咖啡點心，補足元氣。',
+        icon: Sparkles,
+        type: 'activity',
         map: 'RX-93ff Gundam LaLaport Fukuoka',
         camera: {
           mode: '1x 超廣角仰拍 / 3x 長焦頭部特寫',
@@ -367,32 +367,32 @@ export const winterItinerary = [
         }
       },
       {
-        time: '13:00–18:30',
-        title: 'KidZania Fukuoka（キッザニア福岡）兒童職業體驗樂園 (平安夜特別企劃)',
-        desc: '位於 LaLaport 福岡 2 樓的超人氣兒童職業體驗樂園！4-5 歲孩子穿上專屬迷你制服，體驗機師、消防隊滅火、甜點師、披薩廚師、杜比配音員、警察等 60+ 種真實職業。完成工作可賺取專屬「KidZo」薪資貨幣，學習工作與金錢價值。平安夜限定聖誕拍照與職業任務，全室內舒適不受冬日冷風影響！家長可輪流於 LaLaport 商場享受 200+ 間品牌購物（Gundam Side-F、Jump Shop、日系生活選品）。',
-        icon: Baby,
-        type: 'activity',
+        time: '16:00–18:00',
+        title: '太宰府天滿宮黃昏參拜 ＆ 隈研吾星巴克絕美木構散步',
+        desc: '自 LaLaport 開車約 20 分鐘直達太宰府。避開白天遊覽車人潮，黃昏時刻參道格外幽靜祥和！在隈研吾大師 2000 根杉木卡榫交錯設計的絕美星巴克享用熱咖啡，漫步參拜天滿宮祈求家庭學業平安，品嚐剛出爐熱騰騰酥脆的「梅枝餅 (Umegae Mochi)」。',
+        icon: Coffee,
+        type: 'dining',
         highlight: true,
-        map: 'KidZania Fukuoka',
+        map: 'Starbucks Coffee - Dazaifu Tenmangu Omotesando',
         camera: {
-          mode: '哈蘇大師人像 (3x 潛望鏡) / 1x 抓拍',
-          desc: '孩子穿著小機師/小消防員制服的認真神情',
-          settings: '室內暖色光源，EV +0.7 提亮膚色，快門 1/250s 抓拍孩子興奮操作與領取薪資證書的珍貴畫面'
+          mode: '1x 主鏡頭大師模式 (建築縱深)',
+          desc: '隈研吾木構幾何線條與表參道暮色光影',
+          settings: 'EV +0.3 凸顯原木暖調質感，中央對稱構圖展現空間縱深'
         }
       },
       {
-        time: '19:00～',
-        title: '平安夜溫馨聖誕大餐 ＆ 天神/博多聖誕璀璨點燈巡禮',
-        desc: '於 LaLaport 或返回天神市區享用聖誕晚宴，漫步天神警固公園與中洲川端，欣賞九州冬季限定的浪漫聖誕市集與絢爛聖誕樹燈海。',
+        time: '18:30～',
+        title: '平安夜溫馨聖誕大餐 ＆ 天神/博多璀璨聖誕點燈市集巡禮',
+        desc: '開車返回天神市區，享用精心安排的平安夜聖誕大餐！晚間漫步天神警固公園與博多車站前廣場，沉浸於九州冬季限定的浪漫聖誕市集熱紅酒、巨大聖誕樹與絢爛燈海之中，為孩子與全家留下難忘的平安夜回憶。',
         icon: Utensils,
         type: 'dining',
         map: 'Tenjin Christmas Market'
       }
     ],
     notes: [
-      { text: '【KidZania 預約提醒】KidZania 福岡位於 LaLaport 2 樓，分為第1部（09:00-14:30）與第2部（15:30-20:00）或 8 小時票券，因適逢平安夜與日本冬季假期，強烈建議出發前於官網提早預約確認入場場次。' },
+      { text: '【KidZania 第 1 部時程】12/24/2026 Shift 1 營業時間為 09:00–14:30，適逢週四「English Activities Program (EAP)」，全場多數職業館均採用英文指導互動。建議 08:30 前抵達 LaLaport 2 樓櫃檯報到取號。' },
       { text: '【LaLaport 停車優勢】LaLaport 擁有逾 3,000 個室內大型停車位，自駕前往極為便利，在館內消費滿額可直接折抵停車費。' },
-      { text: '【太宰府黃金時段】08:30 抵達是最佳時間點，店內人少好拍照，天滿宮表參道空靈幽靜。' }
+      { text: '【太宰府黃昏優勢】16:00 後抵達太宰府避開白天團客潮，停車位充裕且表參道空靈幽靜，夜幕初降時木構星巴克格外溫馨。' }
     ]
   },
   {
